@@ -172,6 +172,19 @@ namespace CSBasic
             var number5 = 100.0;
             var number6 = 100.0F;
 
+            string input = Console.ReadLine();
+            Console.WriteLine("input: " + input);
+            while(true)
+            {
+                input = Console.ReadLine();
+                if(input != "q") {
+                    Console.WriteLine(input);
+                }
+                else
+                {
+                    break;
+                }
+            }
         }
     }
 }
