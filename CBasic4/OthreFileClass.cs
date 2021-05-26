@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CBasic4
 {
-    class OthreFileClass
+    class Class1
     {
     }
 }
